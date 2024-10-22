@@ -1,2 +1,0 @@
-# Sistem Manajemen Mahasiswa dengan Login
-Sebuah universitas ingin mengembangkan sistem manajemen mahasiswa sederhana yang dapat digunakan melalui command line. Sistem ini harus menyimpan data mahasiswa, memungkinkan login untuk pengguna, dan melakukan beberapa operasi seperti menambahkan, mencari, dan menampilkan data mahasiswa.
