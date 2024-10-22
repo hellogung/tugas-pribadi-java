@@ -5,12 +5,12 @@ import java.text.DecimalFormat;
 public class Karyawan {
     private String nomor;
     private String nama;
-    private String golongan;
+    private char golongan;
     private float gaji_pokok;
 
     private float tunjangan_golongan;
 
-    public Karyawan(String nomor, String nama, String golongan, float gaji_pokok){
+    public Karyawan(String nomor, String nama, char golongan, float gaji_pokok){
         this.nomor = nomor;
         this.nama = nama;
         this.golongan = golongan;
@@ -26,10 +26,10 @@ public class Karyawan {
          */
 
         switch (this.golongan) {
-            case "A":
+            case 'A':
                 this.tunjangan_golongan = 500_000;
                 break;
-            case "B":
+            case 'B':
                 this.tunjangan_golongan = 250_000;
                 break;
 
