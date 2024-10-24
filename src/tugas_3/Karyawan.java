@@ -10,7 +10,7 @@ public class Karyawan {
 
     private float tunjangan_golongan;
 
-    public Karyawan(String nomor, String nama, char golongan, float gaji_pokok){
+    public Karyawan(String nomor, String nama, char golongan, float gaji_pokok) {
         this.nomor = nomor;
         this.nama = nama;
         this.golongan = golongan;

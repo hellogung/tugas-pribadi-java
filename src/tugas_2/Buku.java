@@ -8,11 +8,11 @@ public class Buku {
     private int jumlah;
     protected String nomor_rak;
 
-    public int getJumlah(){
+    public int getJumlah() {
         return this.jumlah;
     }
 
-    public void setJumlah(int jumlah){
+    public void setJumlah(int jumlah) {
         this.jumlah = jumlah;
     }
 }

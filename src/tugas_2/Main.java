@@ -3,6 +3,10 @@ package tugas_2;
 // Tugas Sistem Perpustakaan
 public class Main {
     public static void main(String[] args) {
+        // Clear Screen Terminal
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+        
         Buku buku = new Buku();
 
         buku.judul = "Harry Potter";

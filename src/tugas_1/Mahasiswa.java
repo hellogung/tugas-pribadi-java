@@ -1,4 +1,5 @@
 package tugas_1;
+
 public class Mahasiswa {
     private String npm, nama, jurusan;
 
@@ -17,4 +18,4 @@ public class Mahasiswa {
     public String getNpm() {
         return npm;
     }
-}   
+}
